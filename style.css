@@ -27,6 +27,7 @@ body{
   border-radius: 0.2rem;
   background: #404248;
   border:0.1px solid #78EAE1;
+  color:#fff;
 }
 
 #myinput:hover{
