@@ -61,7 +61,7 @@ div::before{
   backdrop-filter: blur(10px);
   border-radius: 50%;
   background: #09E8FF;
-  animation: animate linear infinite 245s;
+  animation: animate linear infinite 999999999999990s;
 }
 
 div::after{
@@ -74,7 +74,7 @@ div::after{
   backdrop-filter: blur(10px);
   border-radius: 50%;
   background: #3EFF09;
-  animation: animateT  234s linear infinite;
+  animation: animateT  99999999999234s linear infinite;
 }
 
 #imgAshneer{
@@ -103,7 +103,7 @@ div::after{
     transform:rotate(12deg)translate(20rem);
   }
   100%{
-    transform: rotate(6deg) translate(0.5rem);
+    transform: rotate(360deg) translate(0.5rem);
     background: #3EFF09;
   }
 }
