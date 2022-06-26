@@ -17,11 +17,18 @@ console.log(fruits);
 
 const math = Math.floor(Math.random()*160+1);
 console.log(math);
-const mathTwo = Math.floor(Math.random()*100+1);
-console.log(mathTwo);
-document.getElementById('question').innerHTML = math + "+" + mathTwo;
-let sum = math + mathTwo;
+const mathTwo = Math.floor(Math.random()*60+1);
+console.log(mathTwo)
+const mathThree = Math.floor(Math.random()*100/2)*2;
+console.log(mathThree)
+const mathFour = Math.floor(Math.random()*10/2)*2;
+console.log(mathFour)
+const mathFive = Math.floor(Math.random()*100+1);
+console.log(mathFive)
 
+document.getElementById('question').innerHTML = math + "+" + mathTwo + "×" + mathThree + "÷" + mathFour + "-" + mathFive;
+let sum = math + mathTwo * mathThree / mathFour - mathFive;
+console.log(sum)
 function myfuc(){
   let answer = document.getElementById("myinput").value;
   if (answer == sum || answer == "Ashneer") {
@@ -45,5 +52,5 @@ newGame.addEventListener('click', ()=>{
 })
 const imgAman = document.getElementById("imgAman");
 const imgAshneer = document.getElementById("imgAshneer");
-const audioAshneer = new Audio('ashneer.mp3')
-const audioPankaj = new Audio('Pankaj.mp3')
+const audioAshneer = new Audio('ashneer.mp3');
+const audioPankaj = new Audio('Pankaj.mp3');

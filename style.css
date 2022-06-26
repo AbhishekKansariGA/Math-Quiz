@@ -16,7 +16,7 @@ body{
   align-items: center;
   flex-direction: column;
   background: #000;
-  height:100vh;
+  margin-top: 40%;
 }
 
 
@@ -61,10 +61,11 @@ div::before{
   backdrop-filter: blur(10px);
   border-radius: 50%;
   background: #09E8FF;
-  animation: animate 35s linear infinite;
+  animation: animate linear infinite 245s;
 }
 
 div::after{
+  
   content:"";
   position:absolute;
   width:5rem;
@@ -73,7 +74,7 @@ div::after{
   backdrop-filter: blur(10px);
   border-radius: 50%;
   background: #3EFF09;
-  animation: animateT  34s linear infinite;
+  animation: animateT  234s linear infinite;
 }
 
 #imgAshneer{
@@ -96,19 +97,20 @@ div::after{
   display:none;
 }
 
+
 @keyframes animate{
   0%{
-    transform: rotate(270deg) translateY(10rem);
+    transform:rotate(12deg)translate(20rem);
   }
   100%{
-    transform: rotate(30deg) translate(10rem);
+    transform: rotate(6deg) translate(0.5rem);
     background: #3EFF09;
   }
 }
 
 @keyframes animateT{
   0%{
-    transform:rotate(180deg) translateY(10rem);
+    transform:rotate(12deg)translate(-10rem);
   }
   100%{
     transform:rotate(30deg) translate(10rem);
