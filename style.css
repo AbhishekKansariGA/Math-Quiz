@@ -104,7 +104,7 @@ div::after{
     transform:rotate(360deg)translate(4rem);
   }
   100%{
-    transform: rotate(30deg) translate(-6rem);
+    transform: rotate(30deg) translate(6rem);
     background: #3EFF09;
   }
 }
@@ -114,7 +114,7 @@ div::after{
     transform:rotate(360deg)translate(-6rem);
   }
   100%{
-    transform:rotate(30deg) translate(-6rem);
+    transform:rotate(30deg) translate(6rem);
     background-color:#09E8FF;
   }
 }
