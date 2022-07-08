@@ -62,7 +62,7 @@ div::before{
   backdrop-filter: blur(10px);
   border-radius: 50%;
   background: #09E8FF;
-  animation: animate linear infinite 999999999999990s;
+  animation: animate linear infinite 300s;
 }
 
 div::after{
@@ -75,7 +75,7 @@ div::after{
   backdrop-filter: blur(10px);
   border-radius: 50%;
   background: #3EFF09;
-  animation: animateT  99999999999234s linear infinite;
+  animation: animateT  9s linear infinite;
 }
 
 #imgAshneer{
@@ -101,20 +101,20 @@ div::after{
 
 @keyframes animate{
   0%{
-    transform:rotate(360deg)translate(4rem);
+    transform:rotate(0deg)translate(4rem);
   }
   100%{
-    transform: rotate(30deg) translate(6rem);
+    transform: rotate(120deg) translate(6rem);
     background: #3EFF09;
   }
 }
 
 @keyframes animateT{
   0%{
-    transform:rotate(360deg)translate(-6rem);
+    transform:rotate(0deg)translate(-4rem);
   }
   100%{
-    transform:rotate(30deg) translate(6rem);
+    transform:rotate(120deg) translate(-6rem);
     background-color:#09E8FF;
   }
 }
