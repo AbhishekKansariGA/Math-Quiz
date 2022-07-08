@@ -59,19 +59,18 @@ div::before{
   position:absolute;
   width:8rem;
   height:8rem;
-  backdrop-filter: blur(10px);
+  margin: 5%;
   border-radius: 50%;
   background: #09E8FF;
   animation: animate linear infinite 300s;
 }
 
 div::after{
-  
   content:"";
   position:absolute;
   width:5rem;
   height:5rem;
-  margin-top:60%;
+  margin-top:70%;
   backdrop-filter: blur(10px);
   border-radius: 50%;
   background: #3EFF09;
