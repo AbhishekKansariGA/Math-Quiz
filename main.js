@@ -55,10 +55,6 @@ const newGame = document.querySelector("#newGame");
 newGame.addEventListener('click', ()=>{
   window.location.reload();
 });
-const btn = document.getElementById("subbtn");
-btn.addEventListener("click",()=>{
-  div.style.display = "none";
-});
 
 const imgAman = document.getElementById("imgAman");
 const imgAshneer = document.getElementById("imgAshneer");
