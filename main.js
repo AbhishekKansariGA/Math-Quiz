@@ -54,9 +54,15 @@ function myfuc(){
 const newGame = document.querySelector("#newGame");
 newGame.addEventListener('click', ()=>{
   window.location.reload();
-})
+});
+const btn = document.getElementById("subbtn");
+btn.addEventListener("click",()=>{
+  div.style.display = "none";
+});
+
 const imgAman = document.getElementById("imgAman");
 const imgAshneer = document.getElementById("imgAshneer");
+const div = document.querySelector("div");
 const audioAshneer = new Audio('ashneer.mp3');
 const audioPankaj = new Audio('Pankaj.mp3');
-const audioBody = new Audio('wahran.mp3');
+const audioBody = new Audio('Aidda ni.mp3');
