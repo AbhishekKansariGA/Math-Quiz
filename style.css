@@ -19,7 +19,16 @@ body{
   margin-top: 40%;
 }
 
-
+fieldset{
+  background:url("/Isaac Newton.png") center center no-repeat;
+  background-size:cover;
+  position: absolute;
+  width:8rem;
+  height:8rem;
+  border:none;
+  top:1px;
+  left:130px;
+}
 #myinput{
   height:2.5rem;
   width:15rem;
